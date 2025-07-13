@@ -6,3 +6,7 @@ _site
 .jekyll-metadata
 
 Gemfile.lock
+
+gems
+cache
+bin
