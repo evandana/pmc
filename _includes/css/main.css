@@ -195,19 +195,19 @@ section.success {
     }
 }
 
-#fundraising .fundraising-item {
+#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#fundraising .fundraising-item .fundraising-link {
+#portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#fundraising .fundraising-item .fundraising-link .caption {
+#portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -218,11 +218,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#fundraising .fundraising-item .fundraising-link .caption:hover {
+#portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
-#fundraising .fundraising-item .fundraising-link .caption .caption-content {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -233,47 +233,47 @@ section.success {
     color: #fff;
 }
 
-#fundraising .fundraising-item .fundraising-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#fundraising .fundraising-item .fundraising-link .caption .caption-content h3,
-#fundraising .fundraising-item .fundraising-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#fundraising * {
+#portfolio * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #fundraising .fundraising-item {
+    #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
 }
 
-/* Flexbox fundraising Grid */
+/* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
-    .fundraising-flex-grid .fundraising-flex-row {
+    .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
       flex-flow: row wrap;
       align-items: stretch;
       justify-content: space-between;
     }
-    .fundraising-flex-grid .fundraising-flex-row .fundraising-flex-item {
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 49%;
       max-width: 49%;
     }
   }
   @media (min-width: 960px) {
-    .fundraising-flex-grid .fundraising-flex-row .fundraising-flex-item {
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
     }
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
-    .fundraising-flex-grid .fundraising-flex-row .fundraising-flex-item {
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
       max-width: 23.5%;
     }
@@ -413,7 +413,7 @@ footer .footer-below {
     outline: 0;
 }
 
-.fundraising-modal .modal-content {
+.portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -424,20 +424,20 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.fundraising-modal .modal-content h2 {
+.portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.fundraising-modal .modal-content img {
+.portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.fundraising-modal .modal-content .item-details {
+.portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.fundraising-modal .close-modal {
+.portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -447,11 +447,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.fundraising-modal .close-modal:hover {
+.portfolio-modal .close-modal:hover {
     opacity: .3;
 }
 
-.fundraising-modal .close-modal .lr {
+.portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -462,7 +462,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.fundraising-modal .close-modal .lr .rl {
+.portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
