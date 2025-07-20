@@ -489,3 +489,7 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+font-weight-bold {
+    font-weight: 800;
+}
