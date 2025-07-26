@@ -2,11 +2,18 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: goldilox.png
 alt: image-alt
 project-date: April 2014
 client: Golidlox Bagels
-web-address: goldilox.com
-socials: insta.com,something.fb
+web-address: https://www.goldiloxbagels.com/
+cta-label: Order your bagels
+cta-address: https://order.goldiloxbagels.com/
+instagram-label: goldiloxbagels
+instagram-address: https://www.instagram.com/goldiloxbagels/?utm_source=ig_embed&ig_rid=2ee67441-1ccc-4df2-b799-40ffef3a4f3e
+prize: $25 Gift Card to Goldilox Bagels
 description: Golidlox is the best!
+    I've been frequenting Golidlox since they opened in 2019, 
+    having been blown away by the quality of the bagels.
+    Lindsey and Ed (owners) are truly wonderful people.
 ---

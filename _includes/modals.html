@@ -15,30 +15,34 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="img/sponsors/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>
+                {% if post.web-address %}
+                <a href="{{ post.web-address }}"><strong>{{ post.client }}</strong></a>
+                {% else %}
                 <strong>{{ post.client }}</strong>
+                {% endif %}
               </li>
               {% endif %}
-              {% if post.web-address %}
-              <li>
-                <strong>{{ post.web-address }}</strong>
-              </li>
-              {% endif %}
-              {% if post.socials %}
-              <li>
-              {% assign socials = post.socials | split: "," %}
-              {% for social in socials %}
-                <a href="{{ social }}">{{ social }}</a>
-              {% endfor %}
-              </li>
+              {% if post.cta-label %}
+              <li><a href="{{ post.cta-address }}">{{ post.cta-label }}</a></li>
               {% endif %}
             </ul>
+            {% if post.instagram-address %}
+            <ul class="list-inline item-detail href="{{ post.instagram-address }}">
+              <li>
+                <a href="{ post.instagram-address }">
+                  <img src="img/ig.png" style="height: 1em; width: 1em; margin-bottom: 0; margin-right: 0.5em;" alt="instagram"/>
+                  @{{ post.instagram-label }}
+                </a>
+              </li>
+            </ul>
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

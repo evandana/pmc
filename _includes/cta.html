@@ -22,18 +22,29 @@
       <div>
         <h3>Entry</h3>
         <p>
-          1 entry for every $20 donated to my PMC 2025 fundraising. If you
-          already donated, you're already entered.
+          <strong>1 entry for every $20 donated to my PMC 2025 fundraising.</strong>
+          If you already donated, you're already entered.
         </p>
         <h3>Drawing date</h3>
-        <p>Saturday, August 17th at 3pm ET</p>
+        <p><strong>Saturday, August 17th at 3pm ET</strong></p>
         <p>
           Donations are accepted until October 1st, but only those donations
           before the drawing date will get raffle entries.
         </p>
         <h3>Prizes</h3>
-        <ul>
-          <li>...</li>
+        <ul class="list-inline item-detail">
+            {% for post in site.posts %}
+                {% if post.prize %}
+                    <li class="col-xs-6 col-md-12 col-lg-6 portfolio-flex-item portfolio-item" 
+                        style="background: #fafafa; border-radius: 1em;"
+                        >
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <p>{{ post.prize }}</p>
+                        <img src="img/sponsors/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
         </ul>
       </div>
     </div>
