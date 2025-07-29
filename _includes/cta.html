@@ -35,12 +35,12 @@
         <ul class="list-inline item-detail">
             {% for post in site.posts %}
                 {% if post.prize %}
-                    <li class="col-xs-6 col-md-12 col-lg-6 portfolio-flex-item portfolio-item" 
-                        style="background: #fafafa; border-radius: 1em;"
+                    <li class="col-xs-12 col-md-12 col-lg-6 portfolio-flex-item portfolio-item prize-container" 
                         >
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <p>{{ post.prize }}</p>
-                        <img src="img/sponsors/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        <p class="prize-text">{{ post.prize }}</p>
+                        <div class="prize-image" style="background-image: url('img/sponsors/{{ post.img }}');" ></div>
+                        <!-- <img src="img/sponsors/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"> -->
                         </a>
                     </li>
                 {% endif %}

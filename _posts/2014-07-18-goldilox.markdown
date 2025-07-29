@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 20140718
 date: 2014-07-18
 img: goldilox.png
 alt: image-alt
@@ -10,10 +10,17 @@ web-address: https://www.goldiloxbagels.com/
 cta-label: Order your bagels
 cta-address: https://order.goldiloxbagels.com/
 instagram-label: goldiloxbagels
-instagram-address: https://www.instagram.com/goldiloxbagels/?utm_source=ig_embed&ig_rid=2ee67441-1ccc-4df2-b799-40ffef3a4f3e
+instagram-address: https://www.instagram.com/goldiloxbagels
 prize: $25 Gift Card to Goldilox Bagels
-description: Golidlox is the best!
-    I've been frequenting Golidlox since they opened in 2019, 
-    having been blown away by the quality of the bagels.
-    Lindsey and Ed (owners) are truly wonderful people.
+description: |-
+    **I've been frequenting Golidlox since they opened in 2019, 
+    having been blown away by the quality of the bagels.**
+    Their sandwiches are fantastic, and those cookies are ridiculous.
+    While we consume the most the cinny-raisin, the monthly special flavors 
+    and rosemary are perfect for savory meal.
+
+    🥯
+
+    Lindsey and Ed (owners) are truly wonderful people, 
+    building a community while serving the absolute best bagels.
 ---
